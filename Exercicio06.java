@@ -28,7 +28,7 @@ public class Exercicio06 {
                 
                 texto2.getChars(i, i+1, texto3, j);
                 j++;
-                x=i;
+                x=i+1;
             }   
             texto1.getChars(x, a, texto3, j);
         }else{
@@ -39,7 +39,7 @@ public class Exercicio06 {
                 
                 texto2.getChars(i, i+1, texto3, j);
                 j++;
-                x=i;
+                x=i+1;
             }   
             texto2.getChars(x, b, texto3, j);
             
